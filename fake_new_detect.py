@@ -6,7 +6,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import PassiveAggressiveClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 import time
-import h5py
 import pickle
 
 tfidf_vectorizer = TfidfVectorizer(stop_words = 'english', max_df = 0.7)
